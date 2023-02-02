@@ -3,6 +3,6 @@ kind: Kustomization
 
 resources:
 - argocd-ns.yaml
-- https://github.com/sankosa/argocd-gitops-controller-test/blob/main/install.yaml
+- https://raw.githubusercontent.com/sankosa/argocd-gitops-controller-test/main/install.yaml
 #- https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
 #- https://raw.githubusercontent.com/argoproj-labs/applicationset/stable/manifests/install.yaml
