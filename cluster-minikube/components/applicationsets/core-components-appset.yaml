@@ -6,10 +6,10 @@ metadata:
 spec:
   generators:
   - git:
-      repoURL: https://github.com/christianh814/example-kubernetes-go-repo
+      repoURL: https://github.com/sankosa/argocd-gitops-controller-test
       revision: main
       directories:
-      - path: cluster-XXXX/core/*
+      - path: cluster-minikube/core/*
   template:
     metadata:
       name: '{{path.basename}}'
@@ -26,7 +26,7 @@ spec:
             factor: 2
             maxDuration: 5m
       source:
-        repoURL: https://github.com/christianh814/example-kubernetes-go-repo
+        repoURL: https://github.com/sankosa/argocd-gitops-controller-test
         targetRevision: main
         path: '{{path}}'
       destination:
