@@ -10476,6 +10476,7 @@ metadata:
     app.kubernetes.io/component: server
     app.kubernetes.io/name: argocd-server
     app.kubernetes.io/part-of: argocd
+    app.sap.addon/skosa: petike
   name: argocd-server
 spec:
   selector:
