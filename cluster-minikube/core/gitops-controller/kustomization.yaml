@@ -4,6 +4,3 @@ kind: Kustomization
 bases:
 - ../../bootstrap/overlays/default/
 
-images:
-- name: quay.io/argoproj/argocd
-  newTag: v2.5.9
